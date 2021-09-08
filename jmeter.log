@@ -1,0 +1,1620 @@
+2021-09-07 14:04:04,741 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-09-07 14:04:04,801 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.3/libexec/bin/user.properties
+2021-09-07 14:04:04,802 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.3/libexec/bin/system.properties
+2021-09-07 14:04:04,804 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2021-09-07 14:04:04,805 INFO o.a.j.JMeter: Version 5.3
+2021-09-07 14:04:04,805 INFO o.a.j.JMeter: java.version=13.0.1
+2021-09-07 14:04:04,805 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-09-07 14:04:04,805 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-09-07 14:04:04,805 INFO o.a.j.JMeter: os.arch=x86_64
+2021-09-07 14:04:04,805 INFO o.a.j.JMeter: os.version=10.15.6
+2021-09-07 14:04:04,806 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-09-07 14:04:04,806 INFO o.a.j.JMeter: java.awt.headless=null
+2021-09-07 14:04:04,806 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-09-07 14:04:04,806 INFO o.a.j.JMeter: Available Processors =4
+2021-09-07 14:04:04,834 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-09-07 14:04:04,835 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-09-07 14:04:04,836 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.3/libexec
+2021-09-07 14:04:04,836 INFO o.a.j.JMeter: user.dir  =/Users/subhanhasbiyudha/Kampus/react/movieapp
+2021-09-07 14:04:04,836 INFO o.a.j.JMeter: PWD       =/Users/subhanhasbiyudha/Kampus/react/movieapp
+2021-09-07 14:04:04,845 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Rizas-MacBook-Pro.local FullName: localhost
+2021-09-07 14:04:06,606 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2021-09-07 14:04:10,271 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2021-09-07 14:04:12,842 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-95680728871592542e80d333eba49740-gui
+2021-09-07 14:04:16,979 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.3, jmeter-core=5.3, jmeter-ftp=5.3, jmeter-http=5.3, jmeter-jdbc=5.3, jmeter-jms=5.3, jmeter-junit=5.3, jmeter-java=5.3, jmeter-ldap=5.3, jmeter-mail=5.3, jmeter-mongodb=5.3, jmeter-native=5.3, jmeter-tcp=5.3, jmeter-components=5.3]
+2021-09-07 14:04:16,986 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2021-09-07 14:05:12,259 INFO o.a.j.s.FileServer: Default base='/Users/subhanhasbiyudha/Kampus/react/movieapp'
+2021-09-07 14:05:12,265 INFO o.a.j.g.a.Load: Loading file: /Users/subhanhasbiyudha/Kampus/JMeter/livecode-test.jmx
+2021-09-07 14:05:12,266 INFO o.a.j.s.FileServer: Set new base='/Users/subhanhasbiyudha/Kampus/JMeter'
+2021-09-07 14:05:12,583 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-09-07 14:05:12,604 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-09-07 14:05:12,607 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-09-07 14:05:12,612 INFO o.a.j.s.SaveService: Loading file: /Users/subhanhasbiyudha/Kampus/JMeter/livecode-test.jmx
+2021-09-07 14:05:13,293 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2021-09-07 14:05:13,301 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2021-09-07 14:05:13,317 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-09-07 14:05:13,317 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-09-07 14:05:13,318 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-09-07 14:05:13,318 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-09-07 14:05:13,318 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-09-07 14:05:13,318 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-09-07 14:05:16,002 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-09-07 14:05:16,002 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-09-07 14:05:16,002 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-09-07 14:05:16,002 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-09-07 14:05:16,361 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2021-09-07 14:05:16,535 INFO o.a.j.s.FileServer: Set new base='/Users/subhanhasbiyudha/Kampus/JMeter'
+2021-09-07 14:08:31,847 INFO o.a.j.g.a.What: Log level set to INFO for org.apache.jmeter.control.TransactionController
+2021-09-07 14:18:49,846 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-09-07 14:18:49,860 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-09-07 14:18:49,863 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-09-07 14:18:49,867 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-09-07 14:18:49,867 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-09-07 14:18:50,518 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2021-09-07 14:18:50,657 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-09-07 14:18:50,664 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2021-09-07 14:18:50,664 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-09-07 14:18:50,665 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-09-07 14:18:50,697 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-09-07 14:18:50,697 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-09-07 14:18:50,701 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-09-07 14:18:50,726 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Rizas-MacBook-Pro.local
+2021-09-07 14:18:50,745 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-09-07 14:18:51,106 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-09-07 14:18:51,195 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2021-09-07 14:18:51,230 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2021-09-07 14:18:51,234 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-09-07 14:18:51,234 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-09-07 14:18:51,273 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2021-09-07 14:18:51,274 INFO o.a.j.u.SSLManager: KeyStore created OK
+2021-09-07 14:18:51,275 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2021-09-07 14:18:51,356 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2021-09-07 14:19:03,068 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:289225] starting at token ' ' until [6:289387] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 6, column 289226.
+
+Was expecting one of:
+
+    "and"
+    <COMMA>
+    <LBRACE>
+    <S>
+)
+2021-09-07 14:19:03,072 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:290552] starting at token ' ' until [6:290744] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 6, column 290553.
+
+Was expecting one of:
+
+    "and"
+    <COMMA>
+    <LBRACE>
+    <S>
+)
+2021-09-07 14:19:03,730 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:1059616] starting at token ' ' until [6:1059894] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 6, column 1059617.
+
+Was expecting one of:
+
+    "and"
+    <COMMA>
+    <LBRACE>
+    <S>
+)
+2021-09-07 14:19:03,731 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:1059914] starting at token ' ' until [6:1060151] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 6, column 1059915.
+
+Was expecting one of:
+
+    "and"
+    <COMMA>
+    <LBRACE>
+    <S>
+)
+2021-09-07 14:19:03,733 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:1061448] starting at token ' ' until [6:1061860] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 6, column 1061449.
+
+Was expecting one of:
+
+    "and"
+    <COMMA>
+    <LBRACE>
+    <S>
+)
+2021-09-07 14:19:03,734 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:1061880] starting at token ' ' until [6:1062251] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 6, column 1061881.
+
+Was expecting one of:
+
+    "and"
+    <COMMA>
+    <LBRACE>
+    <S>
+)
+2021-09-07 14:19:03,736 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:1064337] starting at token ' ' until [6:1064761] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 6, column 1064338.
+
+Was expecting one of:
+
+    "and"
+    <COMMA>
+    <LBRACE>
+    <S>
+)
+2021-09-07 14:19:03,795 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:1161471] starting at token ' ' until [6:1161715] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 6, column 1161472.
+
+Was expecting one of:
+
+    "and"
+    <COMMA>
+    <LBRACE>
+    <S>
+)
+2021-09-07 14:19:03,832 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:1220983] starting at token ' ' until [6:1221415] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 6, column 1220984.
+
+Was expecting one of:
+
+    "and"
+    <COMMA>
+    <LBRACE>
+    <S>
+)
+2021-09-07 14:19:03,832 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [6:1221435] starting at token ' ' until [6:1221826] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "(" "("
+    at line 6, column 1221436.
+
+Was expecting one of:
+
+    "and"
+    <COMMA>
+    <LBRACE>
+    <S>
+)
+2021-09-07 14:19:24,763 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [70:35] starting at token ' ' until [70:46] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "!important" <IMPORTANT_SYM>
+    at line 70, column 36.
+
+Was expecting one of:
+
+    ";"
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <S>
+    <VIEWPORT_SYM>
+)
+2021-09-07 14:19:26,595 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [176:11] starting at token '
+  ' until [177:19] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "*" "*"
+    at line 177, column 3.
+
+Was expecting one of:
+
+    ";"
+    "@bottom-center"
+    "@bottom-left"
+    "@bottom-left-corner"
+    "@bottom-right"
+    "@bottom-right-corner"
+    "@charset"
+    "@import"
+    "@left-bottom"
+    "@left-middle"
+    "@left-top"
+    "@media"
+    "@namespace"
+    "@page"
+    "@right-bottom"
+    "@right-middle"
+    "@right-top"
+    "@supports"
+    "@top-center"
+    "@top-left"
+    "@top-left-corner"
+    "@top-right"
+    "@top-right-corner"
+    "}"
+    <AT_UNKNOWN>
+    <FONTFACE_SYM>
+    <IDENT>
+    <KEYFRAMES_SYM>
+    <S>
+    <VIEWPORT_SYM>
+)
+2021-09-07 14:23:50,221 INFO o.a.j.g.a.Start: Shutting test down
+2021-09-07 14:23:50,255 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2021-09-07 14:23:53,132 INFO o.a.j.g.a.Start: Stopping test
+2021-09-07 14:23:53,167 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2021-09-07 14:23:53,169 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2021-09-07 14:23:53,169 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-09-07 14:23:53,192 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-09-07 14:23:53,195 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2021-09-07 14:24:48,984 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-09-07 14:24:48,986 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-09-07 14:24:49,031 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2021-09-07 14:24:49,320 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-09-07 14:24:49,320 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Thread Group.
+2021-09-07 14:24:49,320 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-09-07 14:24:49,321 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=25 delayedStart=false
+2021-09-07 14:24:49,332 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-09-07 14:24:49,514 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-09-07 14:24:49,514 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-09-07 14:24:49,832 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2021-09-07 14:24:50,331 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2021-09-07 14:24:50,833 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2021-09-07 14:24:51,329 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2021-09-07 14:24:51,830 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2021-09-07 14:24:52,330 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2021-09-07 14:24:52,843 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2021-09-07 14:24:53,331 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2021-09-07 14:24:53,832 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2021-09-07 14:24:54,330 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2021-09-07 14:24:54,832 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2021-09-07 14:24:55,332 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2021-09-07 14:24:55,831 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2021-09-07 14:24:56,325 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2021-09-07 14:24:56,826 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2021-09-07 14:24:57,329 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2021-09-07 14:24:57,825 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2021-09-07 14:24:58,324 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2021-09-07 14:24:58,829 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2021-09-07 14:24:59,329 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2021-09-07 14:24:59,824 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2021-09-07 14:25:00,331 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2021-09-07 14:25:00,829 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2021-09-07 14:25:01,330 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2021-09-07 14:25:01,825 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2021-09-07 14:25:02,329 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2021-09-07 14:25:02,827 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2021-09-07 14:25:03,329 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2021-09-07 14:25:03,832 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2021-09-07 14:25:04,330 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2021-09-07 14:25:04,831 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2021-09-07 14:25:05,335 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2021-09-07 14:25:05,835 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2021-09-07 14:25:06,335 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2021-09-07 14:25:06,843 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2021-09-07 14:25:07,339 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2021-09-07 14:25:07,840 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2021-09-07 14:25:08,341 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2021-09-07 14:25:08,833 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2021-09-07 14:25:09,332 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2021-09-07 14:25:09,833 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2021-09-07 14:25:10,329 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2021-09-07 14:25:10,830 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2021-09-07 14:25:11,329 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2021-09-07 14:25:11,829 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2021-09-07 14:25:12,332 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2021-09-07 14:25:12,832 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2021-09-07 14:25:13,333 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2021-09-07 14:25:13,835 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2021-09-07 14:38:31,175 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-39
+2021-09-07 14:38:31,177 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2021-09-07 14:38:50,090 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-46
+2021-09-07 14:38:50,090 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2021-09-07 14:40:30,674 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2021-09-07 14:40:30,675 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2021-09-07 14:41:24,979 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2021-09-07 14:41:24,980 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2021-09-07 14:41:27,033 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-45
+2021-09-07 14:41:27,033 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2021-09-07 14:41:56,674 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-44
+2021-09-07 14:41:56,675 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2021-09-07 14:41:59,832 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2021-09-07 14:41:59,833 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2021-09-07 14:42:17,637 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2021-09-07 14:42:17,640 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2021-09-07 14:42:19,486 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-33
+2021-09-07 14:42:19,486 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2021-09-07 14:42:19,642 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2021-09-07 14:42:19,642 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2021-09-07 14:42:32,338 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-49
+2021-09-07 14:42:32,339 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2021-09-07 14:42:32,973 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-47
+2021-09-07 14:42:32,973 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2021-09-07 14:42:34,582 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2021-09-07 14:42:34,582 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2021-09-07 14:42:40,666 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2021-09-07 14:42:40,666 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2021-09-07 14:42:44,724 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-28
+2021-09-07 14:42:44,724 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2021-09-07 14:42:46,269 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-32
+2021-09-07 14:42:46,269 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2021-09-07 14:42:47,252 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-50
+2021-09-07 14:42:47,253 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2021-09-07 14:42:47,754 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-48
+2021-09-07 14:42:47,754 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2021-09-07 14:42:50,170 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-29
+2021-09-07 14:42:50,170 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2021-09-07 14:42:51,316 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2021-09-07 14:42:51,317 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2021-09-07 14:43:01,956 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2021-09-07 14:43:01,957 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2021-09-07 14:43:07,511 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-26
+2021-09-07 14:43:07,511 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2021-09-07 14:43:08,521 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2021-09-07 14:43:08,521 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2021-09-07 14:43:11,072 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-41
+2021-09-07 14:43:11,073 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2021-09-07 14:43:22,199 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2021-09-07 14:43:22,200 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2021-09-07 14:43:23,318 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-30
+2021-09-07 14:43:23,319 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2021-09-07 14:43:27,475 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-40
+2021-09-07 14:43:27,476 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2021-09-07 14:43:53,801 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2021-09-07 14:43:53,803 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2021-09-07 14:44:04,599 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-43
+2021-09-07 14:44:04,604 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2021-09-07 14:44:20,392 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2021-09-07 14:44:20,392 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2021-09-07 14:44:32,588 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2021-09-07 14:44:32,590 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2021-09-07 14:44:38,379 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2021-09-07 14:44:38,379 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2021-09-07 14:44:38,794 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-31
+2021-09-07 14:44:38,794 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2021-09-07 14:44:39,425 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2021-09-07 14:44:39,425 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2021-09-07 14:44:39,512 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-36
+2021-09-07 14:44:39,512 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2021-09-07 14:44:40,118 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2021-09-07 14:44:40,118 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2021-09-07 14:44:42,191 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2021-09-07 14:44:42,191 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-09-07 14:44:59,094 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-42
+2021-09-07 14:44:59,095 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2021-09-07 14:44:59,687 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2021-09-07 14:44:59,687 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2021-09-07 14:45:04,796 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2021-09-07 14:45:04,796 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2021-09-07 14:45:06,331 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2021-09-07 14:45:06,333 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2021-09-07 14:45:08,624 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-35
+2021-09-07 14:45:08,624 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2021-09-07 14:45:22,778 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-34
+2021-09-07 14:45:22,779 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2021-09-07 14:46:18,580 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-27
+2021-09-07 14:46:18,581 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2021-09-07 14:46:35,073 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2021-09-07 14:46:35,074 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2021-09-07 14:47:44,798 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-37
+2021-09-07 14:47:44,799 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2021-09-07 14:49:45,257 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2021-09-07 14:49:45,260 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2021-09-07 15:53:57,306 ERROR o.a.j.JMeter: Uncaught exception in thread Thread[AWT-EventQueue-0,6,main]
+java.lang.NullPointerException: null
+	at com.github.weisj.darklaf.ui.scrollpane.DarkScrollBarListener.adjustmentValueChanged(DarkScrollBarListener.java:165) ~[darklaf-core-2.1.1.jar:2.1.1]
+	at javax.swing.JScrollBar.fireAdjustmentValueChanged(JScrollBar.java:713) ~[?:?]
+	at javax.swing.JScrollBar$ModelListener.stateChanged(JScrollBar.java:735) ~[?:?]
+	at javax.swing.DefaultBoundedRangeModel.fireStateChanged(DefaultBoundedRangeModel.java:371) ~[?:?]
+	at javax.swing.DefaultBoundedRangeModel.setRangeProperties(DefaultBoundedRangeModel.java:309) ~[?:?]
+	at javax.swing.DefaultBoundedRangeModel.setValue(DefaultBoundedRangeModel.java:175) ~[?:?]
+	at javax.swing.JScrollBar.setValue(JScrollBar.java:478) ~[?:?]
+	at com.github.weisj.darklaf.ui.scrollpane.ScrollBarUtil.doScroll(ScrollBarUtil.java:113) ~[darklaf-core-2.1.1.jar:2.1.1]
+	at com.github.weisj.darklaf.ui.scrollpane.DarkScrollPaneUI.lambda$new$2(DarkScrollPaneUI.java:72) ~[darklaf-core-2.1.1.jar:2.1.1]
+	at java.awt.Component.processMouseWheelEvent(Component.java:6724) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6408) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2263) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:5012) ~[?:?]
+	at java.awt.Container.dispatchEventToSelf(Container.java:2345) ~[?:?]
+	at java.awt.Component.dispatchMouseWheelToAncestor(Component.java:5157) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:4909) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2321) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4844) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4576) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2307) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2762) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4844) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:745) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:743) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2021-09-07 15:55:01,756 INFO o.a.j.g.a.Start: Stopping test
+2021-09-07 15:55:01,823 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-38
+2021-09-07 15:55:01,839 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-38 sampler: https://academy.dqlab.id/main
+2021-09-07 15:55:01,839 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 15:55:01,839 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-21
+2021-09-07 15:55:01,839 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-21 sampler: https://academy.dqlab.id/main/module
+2021-09-07 15:55:01,839 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 15:55:01,840 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2021-09-07 15:55:01,840 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: https://academy.dqlab.id/main
+2021-09-07 15:55:01,840 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 15:55:01,848 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 15:55:01,850 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase$ASyncSample.call(HTTPSamplerBase.java:2125) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase$ASyncSample.call(HTTPSamplerBase.java:2093) [ApacheJMeter_http.jar:5.3]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 15:55:01,850 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 15:55:01,847 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 15:55:01,865 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2021-09-07 15:55:01,867 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2021-09-07 15:55:01,867 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2021-09-07 15:55:01,906 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-09-07 15:55:01,908 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2021-09-07 15:58:06,400 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-09-07 15:58:06,432 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-09-07 15:58:06,489 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2021-09-07 15:58:07,436 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-09-07 15:58:07,437 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Thread Group.
+2021-09-07 15:58:07,437 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-09-07 15:58:07,438 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=25 delayedStart=false
+2021-09-07 15:58:07,453 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-09-07 15:58:07,782 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-09-07 15:58:07,782 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-09-07 15:58:07,970 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2021-09-07 15:58:08,476 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2021-09-07 15:58:08,952 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2021-09-07 15:58:09,454 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2021-09-07 15:58:09,952 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2021-09-07 15:58:10,458 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2021-09-07 15:58:10,973 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2021-09-07 15:58:11,456 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2021-09-07 15:58:11,953 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2021-09-07 15:58:12,452 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2021-09-07 15:58:12,953 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2021-09-07 15:58:13,490 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2021-09-07 15:58:13,964 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2021-09-07 15:58:14,450 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2021-09-07 15:58:14,959 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2021-09-07 15:58:15,455 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2021-09-07 15:58:15,952 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2021-09-07 15:58:16,465 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2021-09-07 15:58:16,966 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2021-09-07 15:58:17,456 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2021-09-07 15:58:17,982 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2021-09-07 15:58:18,447 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2021-09-07 15:58:18,949 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2021-09-07 15:58:19,449 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2021-09-07 15:58:19,947 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2021-09-07 15:58:20,446 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2021-09-07 15:58:20,942 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2021-09-07 15:58:21,445 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2021-09-07 15:58:21,943 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2021-09-07 15:58:22,446 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2021-09-07 15:58:22,942 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2021-09-07 15:58:23,447 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2021-09-07 15:58:24,230 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2021-09-07 15:58:24,447 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2021-09-07 15:58:24,950 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2021-09-07 15:58:25,447 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2021-09-07 15:58:25,946 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2021-09-07 15:58:26,451 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2021-09-07 15:58:26,945 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2021-09-07 15:58:27,447 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2021-09-07 15:58:27,949 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2021-09-07 15:58:28,447 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2021-09-07 15:58:28,949 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2021-09-07 15:58:29,462 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2021-09-07 15:58:29,955 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2021-09-07 15:58:30,448 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2021-09-07 15:58:30,947 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2021-09-07 15:58:31,445 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2021-09-07 15:58:31,945 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2021-09-07 16:09:42,181 INFO o.a.j.g.a.Start: Stopping test
+2021-09-07 16:09:42,249 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-29
+2021-09-07 16:09:42,256 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-29 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,257 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,259 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-41
+2021-09-07 16:09:42,260 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-41 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,260 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,260 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-42
+2021-09-07 16:09:42,260 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-42 sampler: https://academy.dqlab.id/main/module
+2021-09-07 16:09:42,262 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,262 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-12
+2021-09-07 16:09:42,263 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-12 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,263 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,263 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2021-09-07 16:09:42,263 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,269 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,270 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,260 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,274 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:178) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,292 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2021-09-07 16:09:42,298 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2021-09-07 16:09:42,299 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2021-09-07 16:09:42,300 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2021-09-07 16:09:42,312 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-22
+2021-09-07 16:09:42,313 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-22 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,313 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,313 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-14
+2021-09-07 16:09:42,313 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-14 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,313 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,313 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-13
+2021-09-07 16:09:42,315 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,314 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-13 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,318 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,318 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-21
+2021-09-07 16:09:42,319 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-21 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,319 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,319 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-37
+2021-09-07 16:09:42,319 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-37 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,319 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,319 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-40
+2021-09-07 16:09:42,320 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,322 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2021-09-07 16:09:42,323 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-40 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,324 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,324 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-31
+2021-09-07 16:09:42,324 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-31 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,324 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,324 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2021-09-07 16:09:42,324 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,324 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,324 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-15
+2021-09-07 16:09:42,325 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-15 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,325 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,325 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-25
+2021-09-07 16:09:42,325 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireInterruptibly(AbstractQueuedSynchronizer.java:1261) ~[?:?]
+	at java.util.concurrent.locks.ReentrantLock.lockInterruptibly(ReentrantLock.java:317) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:430) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,333 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2021-09-07 16:09:42,329 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,323 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,340 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:178) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,330 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2021-09-07 16:09:42,372 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2021-09-07 16:09:42,331 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:178) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,379 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2021-09-07 16:09:42,380 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2021-09-07 16:09:42,345 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,345 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2021-09-07 16:09:42,343 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,343 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-25 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,424 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,432 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-33
+2021-09-07 16:09:42,432 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-33 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,432 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,433 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-39
+2021-09-07 16:09:42,433 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-39 sampler: https://academy.dqlab.id/main/module
+2021-09-07 16:09:42,433 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,340 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase$ASyncSample.call(HTTPSamplerBase.java:2125) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase$ASyncSample.call(HTTPSamplerBase.java:2093) [ApacheJMeter_http.jar:5.3]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,378 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2021-09-07 16:09:42,510 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2021-09-07 16:09:42,510 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2021-09-07 16:09:42,511 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,509 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,508 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,441 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:178) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,513 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2021-09-07 16:09:42,513 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2021-09-07 16:09:42,510 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2021-09-07 16:09:42,513 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,536 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-49
+2021-09-07 16:09:42,536 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-49 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,535 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,537 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,537 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2021-09-07 16:09:42,540 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-44
+2021-09-07 16:09:42,540 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,541 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-44 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,541 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,542 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2021-09-07 16:09:42,543 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,544 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2021-09-07 16:09:42,545 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-23
+2021-09-07 16:09:42,546 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-23 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,587 ERROR o.a.j.t.JMeterThread: Error calling threadFinished
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1495) ~[?:?]
+	at java.util.HashMap$ValueIterator.next(HashMap.java:1523) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.closeThreadLocalConnections(HTTPHC4Impl.java:1863) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.threadFinished(HTTPHC4Impl.java:1855) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.threadFinished(HTTPSamplerProxy.java:75) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread$ThreadListenerTraverser.addNode(JMeterThread.java:775) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:993) [jorphan.jar:5.3]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) [jorphan.jar:5.3]
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:976) [jorphan.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.threadFinished(JMeterThread.java:742) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:328) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,609 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2021-09-07 16:09:42,611 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-11
+2021-09-07 16:09:42,611 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-11 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,614 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2021-09-07 16:09:42,614 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: https://academy.dqlab.id/api/middle/service/package/getPackageCounts?_=1629859861093
+2021-09-07 16:09:42,636 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-18
+2021-09-07 16:09:42,636 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-18 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,642 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-48
+2021-09-07 16:09:42,642 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-48 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,642 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,643 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-46
+2021-09-07 16:09:42,643 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-46 sampler: https://academy.dqlab.id/main/module
+2021-09-07 16:09:42,643 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,643 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2021-09-07 16:09:42,643 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,643 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,643 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:178) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,644 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,644 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-36
+2021-09-07 16:09:42,644 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-36 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,644 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,644 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,645 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-45
+2021-09-07 16:09:42,645 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-45 sampler: https://academy.dqlab.id/api/middle/service/question/getPackagesOfModule/1?_=1629859905186
+2021-09-07 16:09:42,645 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,657 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-50
+2021-09-07 16:09:42,658 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-50 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,658 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,658 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-34
+2021-09-07 16:09:42,660 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-34 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,660 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,660 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-20
+2021-09-07 16:09:42,661 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-20 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,660 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,661 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,661 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-16
+2021-09-07 16:09:42,661 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,662 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-16 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,662 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,662 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-43
+2021-09-07 16:09:42,663 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-43 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,663 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,662 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,663 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,663 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-19
+2021-09-07 16:09:42,664 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-19 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,664 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,663 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,664 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-24
+2021-09-07 16:09:42,664 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-24 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,664 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,664 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2021-09-07 16:09:42,664 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,664 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,664 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-47
+2021-09-07 16:09:42,664 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-47 sampler: https://academy.dqlab.id/api/middle/service/package/getPackageCounts?_=1629859861093
+2021-09-07 16:09:42,664 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,664 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,665 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:178) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,667 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2021-09-07 16:09:42,668 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,668 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,669 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-26
+2021-09-07 16:09:42,669 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-26 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,669 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,669 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-27
+2021-09-07 16:09:42,669 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-27 sampler: https://academy.dqlab.id/main/module
+2021-09-07 16:09:42,669 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,669 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,670 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:178) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,673 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-32
+2021-09-07 16:09:42,673 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-32 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,673 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,672 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,674 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2021-09-07 16:09:42,674 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,674 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,674 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-17
+2021-09-07 16:09:42,674 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,674 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-17 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,674 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,680 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2021-09-07 16:09:42,680 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,680 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,680 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-35
+2021-09-07 16:09:42,680 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-35 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,681 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,681 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,683 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-28
+2021-09-07 16:09:42,683 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-28 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,683 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,685 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,684 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,686 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2021-09-07 16:09:42,687 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: https://academy.dqlab.id/
+2021-09-07 16:09:42,687 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,687 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-30
+2021-09-07 16:09:42,687 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-30 sampler: https://academy.dqlab.id/main
+2021-09-07 16:09:42,687 WARN o.a.j.t.JMeterThread: No operation pending
+2021-09-07 16:09:42,687 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-38
+2021-09-07 16:09:42,687 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-38 sampler: https://academy.dqlab.id/api/middle/service/package/getPackageCounts?_=1629859861093
+2021-09-07 16:09:42,687 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,688 WARN o.a.j.p.h.s.HTTPSamplerBase: Interrupted fetching embedded resources
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2056) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2090) ~[?:?]
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433) ~[?:?]
+	at java.util.concurrent.ExecutorCompletionService.take(ExecutorCompletionService.java:200) ~[?:?]
+	at org.apache.jmeter.protocol.http.sampler.ResourcesDownloader.invokeAllAndAwaitTermination(ResourcesDownloader.java:186) ~[ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.downloadPageResources(HTTPSamplerBase.java:1435) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.resultProcessing(HTTPSamplerBase.java:1748) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPAbstractImpl.resultProcessing(HTTPAbstractImpl.java:555) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:728) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1281) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1270) [ApacheJMeter_http.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:630) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:558) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.3]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2021-09-07 16:09:42,721 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2021-09-07 16:09:42,721 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2021-09-07 16:09:42,722 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2021-09-07 16:09:42,723 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2021-09-07 16:09:42,723 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2021-09-07 16:09:42,724 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2021-09-07 16:09:42,724 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2021-09-07 16:09:42,725 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2021-09-07 16:09:42,722 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2021-09-07 16:09:42,722 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-09-07 16:09:42,727 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2021-09-07 16:09:42,727 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2021-09-07 16:09:42,727 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2021-09-07 16:09:42,727 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2021-09-07 16:09:42,727 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2021-09-07 16:09:42,728 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2021-09-07 16:09:42,722 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2021-09-07 16:09:42,729 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2021-09-07 16:09:42,729 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2021-09-07 16:09:42,729 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2021-09-07 16:09:42,729 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2021-09-07 16:09:42,731 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2021-09-07 16:09:42,732 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2021-09-07 16:09:42,722 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2021-09-07 16:09:42,735 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2021-09-07 16:09:42,722 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2021-09-07 16:09:42,740 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2021-09-07 16:09:42,722 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2021-09-07 16:09:42,727 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2021-09-07 16:09:42,723 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2021-09-07 16:09:42,835 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-09-07 16:09:42,838 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2021-09-07 16:09:57,856 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-09-07 16:09:57,864 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-09-07 16:09:57,903 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2021-09-07 16:09:58,893 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-09-07 16:09:58,894 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2021-09-07 16:09:58,894 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-09-07 16:09:58,894 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2021-09-07 16:09:58,914 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-09-07 16:09:58,914 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-09-07 16:09:58,922 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-09-07 16:16:52,579 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2021-09-07 16:16:52,583 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-09-07 16:16:52,585 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-09-07 16:16:52,586 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
